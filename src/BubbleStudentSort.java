@@ -15,7 +15,6 @@ public class BubbleStudentSort {
             System.out.println(student);
         }
     }
-
     public static void bubbleSort(List<Student> students) {
         int n = students.size();
         for (int i = 0; i < n - 1; i++) {
